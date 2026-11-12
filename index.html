@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q2 SW 2</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+    h1 {
+        text-align: center;
+        padding: 50px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 20px;
+        letter-spacing: 3px;
+    } #foot {
+         background: #32a8d7;
+            background: linear-gradient(90deg,rgb(40, 40, 163) 0%, rgb(0, 44, 163) 50%, rgb(33, 82, 240) 100%);
+            color: #f2efef;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+    }
+     body{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBTFKaEQ30lyKukBw41KzNmkpROSuqguv8bEZYPEx4Wg&s=10);
+        background-size: cover;
+        background-repeat:no-repeat;
+        background-position:center;
+    }
+</style>
+</head>
+
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSffsm2n4xf-Ake_7FjbIElN4zOydP5HGxF899j-8bZJQ&s=10" alt= "obmc_logo" class="img-fluid rounded-circle" style="height: 70px; width: 70px;"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+        <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+        <li  class="nav-item">
+            <a class="nav-link" href="#">Campuses</a>
+        <li  class="nav-item">
+            <a class="nav-link" href="#">Contact us</a>
+      </ul>
+
+      <form class="d-flex">
+        <a href="https://obmontessori.orangeapps.ph/landing/obmontessori/" class="My Portal">
+        <button class="btn btn-primary" type="button">My Portal</button></a>
+      </form>
+    </div>
+  </div>
+</nav>
+    </div>
+
+    <div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-7 bg-white rounded-5 mb-5">
+            <h1>Contact Us</h1>
+            <form action="page2.html">
+                <label for="fullname" class="form-label">Full Name:</label>
+                <br>
+                <input type="fullname" class="form-control" placeholder="Enter your full name" required>
+                <br>
+                <label for="email" class="form-label">Email Address:</label>
+                <br>
+                <input type="email" class="form-control" placeholder="Enter your email" required>
+                <label for="subject" class="form-label">Subject:</label>
+                <br>
+                <input type="subject" class="form-control" placeholder="Enter subject" required>
+                <label for="fullname" class="form-label">Message</label>
+                <textarea id="message" class="single-textarea" rows="8" cols="99" placeholder="Type your message here..."></textarea>"
+                <div class="submit-box">
+        <button type="submit" class="btn btn-primary rounded-4 mb-4 w-100">Send Message</button>
+    </div>
+        </div>
+    </div>
+</div>
+
+ <div class="container mb-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+            <h1 class="text-center bg-info rounded-4 shadow">School Office Hours</h1>
+            </div>
+        </div>
+<div class="row justify-content-center">
+            <div class="col-lg-8" id="table1">
+                <table class="table table-hover table-bordered align-middle text-center w-100 shadow">
+                    <thead>
+                        <tr class="display-6 table-secondary">
+                            <th scope="col" style="width: 30%;">Day</th>
+                            <th scope="col" style="width: 33.33%;">Office Hours</th>
+                            <th scope="col" style= "width:36%;">Department</th>
+                        </tr>
+                    </thead>
+                    <br>
+                    <tbody>
+                        <tr class="display-6 table-info" id="row2">
+                            <td cols="3">Monday</td>
+                            <td cols="3">8:00AM-4:00PM </td>
+                            <td cols="3">Regristrar's Office </td>
+                        </tr>
+
+                        <tr class="display-6 table-warning" id="row3">
+                            <td cols="3">Tuesday</td>
+                            <td cols="3">8:00AM-4:00PM</td>
+                            <td cols="3">Accounting Office</td>
+                        </tr>
+
+                        <tr class="display-6 table-success" id="row4">
+                            <td cols="3">Wednesday</td>
+                            <td cols="3">8:00AM-4:00PM</td>
+                            <td cols="3">Guidance Office</td>
+                        </tr>
+
+                        <tr class="display-6 table-primary" id="row5">
+                            <td cols="3">Thursday</td>
+                            <td cols="3">8:00AM-4:00PM</td>
+                            <td cols="3">Principal's</td>
+                        </tr>
+
+                        <tr class="display-6 table-danger" id="row6">
+                            <td cols="3">Friday</td>
+                            <td cols="3">8:00AM-4:00PM</td>
+                            <td cols="3">Admin Office</td>
+                        </tr>
+                    
+                    </tbody>
+
+<div>
+</div>
+</table>
+</div>
+</div>
+</div>
+                    
+     <footer class="text-center">
+            <p id="foot">© 2026 Dany Gille. All rights reserved.</p>
+            </footer>
+        </div>
+</html>
