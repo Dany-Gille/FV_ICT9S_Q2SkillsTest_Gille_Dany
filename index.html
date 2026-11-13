@@ -11,12 +11,11 @@
         text-align: center;
         padding: 50px;
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-weight: 20px;
+        font-weight: 10px;
         letter-spacing: 3px;
     } #foot {
          background: #32a8d7;
-            background: linear-gradient(90deg,rgb(40, 40, 163) 0%, rgb(0, 44, 163) 50%, rgb(33, 82, 240) 100%);
-            color: #f2efef;
+            background: linear-gradient(90deg,rgb(62, 62, 222) 0%, rgb(13, 63, 199) 50%, rgb(33, 82, 240) 100%);
             text-align: center;
             padding: 15px;
             margin-top: 40px;
@@ -64,38 +63,45 @@
 
  <div class="container">
         <div class="row justify-content-center">
-            <div class="col">
-            <h1 class="text-center text-dark">Student Enrollment Form</h1>
-            </div>
+            <div class="col text-center mb-4">
+            <h1 class="text-center text-white">Student Enrollment Form</h1>
+            <p class="text-center text-white">Fill out this form below for the upcoming school year.</p>
+        </div>
 
-<div class="container-fluid bg-white rounded-4 justify-content-center">
-<div class="row row-cols-2">
-<div class="col">
+<div class="container-fluid bg-white rounded-4 bg-opacity-75 justify-content-center">
+<div class="row">
+<div class="col-md-6 mt-3">
+
+    <div class="fw-bold mb-2">
+    <label>Student Information</label>
+    </div>
+
     <label for="firstname" class="form-label">First Name:</label>
     <input type="firstname" class="form-control" placeholder="Enter your first name" required>
 </div>
 
-<div class="col">
+<div class="col-md-6 mt-5">
     <label for="firstname" class="form-label">Last Name:</label>
     <input type="firstname" class="form-control" placeholder="Enter your first name" required>
     
 </div>
 
-<div class="col">Birth Date
-<input type="date" class="form-control">
+<div class="row g-3">
+
+    <div class="col-md-4">Birth Date
+    <input type="date" class="form-control">
 </div>
 
-<div>
-    <div class="col">Gender</div>
-    <select style="width:650px;">
+    <div class="col-md-4">Gender
+    <select class="form-select">
     <option value="5">Select...</option>
     <option value="3">Male</option>
     <option value="1">Female</option>
     </select>
     </div>
 
-    <div class="col">Grade Level</div>
-    <select style="width:650px;">
+    <div class="col-md-4">Grade Level
+    <select class="form-select">
     <option value="8">Select...</option>
     <option value="5">Grade-7</option>
     <option value="3">Grade-8</option>
@@ -103,10 +109,52 @@
     </select>
     </div>
 </div>
+
+<div class="container-fluid mt-4">
+    <div class="row">
+    <div class="col">
+    <label for="email" class="form-label">Contact Details</label>
+    <input type="email" class="form-control" placeholder="Enter your Email Adress" required>
+</div>
+
+<div class="col">
+    <label for="email" class="form-label">Contact Numbers</label>
+    <input type="email" class="form-control" placeholder="Enter your contact number" required>
+
+</div>
+
+<div class="container mt-4">
+    <div class="row">
+    <div class="col">
+
+    <label class="fw-bold mb-2">Other Information</label>
+    <div>
+    <label>Mode of Learning</label>
+
+    <div class="form-check mt-2">
+    <input type="checkbox" id="checkbox" class="form-check-input">
+    <label for="checkbox" class="form-label">Online</label>
+    </div>
+
+    <div class="form-check">
+    <input type="checkbox" id="checkbox" class="form-check-input">
+    <label for="checkbox" class="form-label">Face to face</label>
+    </div>
+
+    <div class="form-check mt-1">
+    <input type="checkbox" id="checkbox" class="form-check-input">
+    <label for="checkbox" class="form-label">I verify that all submitted information is true and complete.</label>
+    </div>
+
+    <div class="text-center">
+        <button type="submit" class="btn btn-primary rounded-4 mb-4 w-25 mt-3">Submit Enrollment</button>
+    </div>
+</div>
+
 </div>
                     
      <footer class="text-center">
             <p id="foot">© 2026 Student Enrollment Page| Dany Gille| 9-Sapphire.</p>
             </footer>
-        </div>
+    </div>
 </html>
